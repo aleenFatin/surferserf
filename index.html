@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		#hero{
+			background-image: url("images/hunter.png");
+    		height: 90vh;
+    		width: 100%;
+			background-size: cover;
+			background-position: top 20% right 0;
+			padding: 0 80px;
+			display: flex;
+			flex-direction: column;
+			align-items:flex-start;
+			justify-content: center;		
+		}
+
+		#banner{
+    		display: flex;
+    		flex-direction: column;
+    		justify-content: center;
+    		text-align: center;
+    		align-items: center;
+    		background-image: url("images/stn.png");
+   			width: 100%;
+    		height: 40vh;
+    		background-size: cover;
+    		background-position: center;
+		}
+		#sm-banner{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		#sm-banner .banner-box{
+    		display: flex;
+   			flex-direction: column;
+    		justify-content: center;
+    		align-items: flex-start;
+    		background-image: url("images/baner.png");
+    		min-width: 500px;
+    		height: 50vh;
+    		background-size: cover;
+    		background-position: center;
+			padding: 30px;
+		}
+		#sm-banner .banner-box2{
+			background-image: url("images/bann.png");
+		}
+
+		#newsletter{
+    		display: flex;
+    		justify-content: space-between;
+    		flex-wrap: wrap;
+    		align-items: center;
+    		background-image: url("images/letter.png");
+    		background-repeat: no-repeat;
+    		background-position: 20% 30%;
+    		background-color: black;
+		}
+	</style>
+</head>
+<body>
+
+	<section id="header">
+	<a href="#"><img src="images/logo.png" width=70px></a>
+
+		<div>
+			<ul id="navbar">
+			<li><a class="active" href="index.html"> Home </a></li>
+			<li><a href="product.html">Products</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="order.html">Order Now</a></li>
+			<a href="#" id="close"><i class="far fa-times"></i></a>
+			</ul>
+		</div>
+		<div id="mobile">
+			<i id="bar" class="fas fa-outdent"></i>
+		</div>
+	</section>
+
+	<section id="hero">	
+		<h4>"Menghias Kepala Anda"</h4>
+		<h2> Super value deals</h2>
+		<h1>On all products</h1>
+		<p><b>Save more with cupons & up to 20% off!</b></p>
+		<button><a href="#product1">Shop now</a></button>
+	</section>
+
+	<section id="product1" class="section-p1">
+		<h2> Featured Products</h2>
+		<p>Surfersurf collection </p>
+		<div class="pro-container">
+			<div class="pro">
+				<img src="images/hunter/hunter bucket (1).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Hunter Bucket</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 25</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart"></i></a>
+			</div>
+			<div class="pro">
+				<img src="images/bucket/bucket hat (3).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Bucket Hat</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 20</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+			<div class="pro">
+				<img src="images/showcap/snowcap (7).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Snowcap</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 18</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+			<div class="pro">
+				<img src="images/beanie/beanie (2).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Beanie</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 19</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+			
+		</div>
+	</section>
+
+	<section id="banner"class="section-m1">
+		<h4>"Menghias Kepala Anda"</h4>
+		<h2>Get<span> 10% off </span> first order</h2>
+		<button class="normal"><a href="product.html">Explore More</a></button>
+	</section>
+
+	<section id="product1" class="section-p1">
+		<h2>New Arrivals</h2>
+		<p>Surfersurf collection </p>
+		<div class="pro-container">
+			<div class="pro">
+				<img src="images/topiah/topiah (1).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Topiah</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 22</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+			<div class="pro">
+				<img src="images/topiah/topiah (2).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Topiah</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 22</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+			<div class="pro">
+				<img src="images/topiah/topiah (6).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Topiah</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 22</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+			<div class="pro">
+				<img src="images/topiah/topiah (17).jpg" alt="">
+				<div class="des">
+					<span>surferserf.co</span>
+					<h5>Topiah</h5>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h4>RM 22</h4>
+				</div>
+				<a href="#"> <i class="fas fa-heart heart heart"></i></a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="section-p1">
+		<div class="col"> 
+		<img class="logo" src="images/logo.png" width="80px">
+		<h4>Contact</h4>
+		<p><b>Address:</b>Lot 2178, jalan sungai udang, 41250 klang, Selangor</p>
+		<p><b>Phone:</b> 011-2700 4621</p>
+		<p><b>Hours:</b>10:00-18:00. Mon-Sat</p>
+		<div class="follow">
+			<br>
+			<h4> Follow us</h4>
+			<div class="icon">
+				<a href="https://www.instagram.com/surferserf.co/"><i class="fab fa-instagram"></i></a>
+				<a href="https://web.facebook.com/surferserf?_rdc=1&_rdr"><i class="fab fa-facebook"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="col">
+		<h4> About </h4>
+		<a href="about.html">About us</a>
+		<a href="contact.html">Contact us</a>
+	</div>
+
+	<div class="col delivery">
+		<h4>Delivery Partners</h4>
+		<p>Delivery across Malaysia</p>
+		<div class="row">
+		<img src="images/poslaju.png" alt="poslaju" width="150px">
+		<img src="images/jt.png" alt="jnt" width="100px">
+	</div>
+	</div>
+</div>
+
+	<div class="copyright">
+		<p>© 2022, Surfersurf.co - All Rights Reserved</p>
+	</div>
+
+	</footer>
+		
+	<script src="js/script.js"></script>
+ 
+</body>
+</html>
+
